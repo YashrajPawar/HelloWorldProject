@@ -7,6 +7,9 @@ phases:
   pre_build:
     commands:
       - echo "Preparing to build"
+      - echo $username
+      - echo $password
+      
   build:
     commands:
       - ./hello.sh
