@@ -1,3 +1,3 @@
 echo "Hello, World!"
-set $username
-set $password
+set $user
+set $pass
